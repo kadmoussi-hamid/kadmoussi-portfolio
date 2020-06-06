@@ -1,0 +1,235 @@
+/* font-family: 'Jost', sans-serif; */
+/* font-family: 'Merriweather', serif; */
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;700&family=Merriweather:ital,wght@0,400;0,700;0,900;1,900&display=swap');
+
+
+
+
+
+           /* header */
+
+.header{
+    background-image: url("/images/laptop.jpg") ;   
+    height: 800px;
+    background-position: top ;
+    background-repeat: no-repeat;
+}
+.header .container img{
+    width: 290px;
+    height: 170px; 
+    float: left; 
+   
+}
+
+.header .navbar {
+    float: right;
+    margin: 20px;
+
+}
+
+.header .container .navbar ul li{
+    list-style-type: none;
+    font-size: 22px;
+    padding-left: 10px;
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    display: inline;
+}
+.header .container .navbar ul a{
+    color:black;
+    text-decoration: none;
+
+}
+.header .container .navbar ul a:hover{
+    color:  whitesmoke;
+}
+.header .container .home{
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 260px;
+    position: absolute;
+
+}
+.header .home h2{
+    font-size: 35px;
+    font-style: italic;
+    font: 400 ;
+    font-family: 'Jost', sans-serif;
+    text-transform: capitalize;
+  
+    
+}
+.header .home h1{
+    font-size: 55px;
+    text-transform: capitalize;
+    font: 700;
+    font-family: 'Merriweather', serif;
+}
+.header .home button{
+    border-radius: 15px;
+    width: 160px;
+    height: 45px;
+    text-transform: capitalize;
+    margin-top: 15px;
+    font-family: 'Jost', serif;
+    font: 400;
+   
+}
+.header .home a{
+    color: white;
+    text-decoration: none;
+
+}
+
+
+           /* servives */
+
+
+.titre{
+text-align: center;
+text-transform: uppercase;
+padding: 50px 0px;
+font-family: 'Jost', sans-serif;
+font: 700;
+}     
+
+.services .container{
+    height: auto;
+}
+.services .container .row{
+    padding-bottom: 40px ;
+}
+
+.services .col-md-4 i{ 
+    font-size: 50px;
+    position: relative;
+    color: gray;
+    margin-bottom: 25px ;
+    padding-left: 43%;
+    
+}
+
+.services .row h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+.services .row p{
+    /* text-indent: 15px; */
+    color: #777;
+    font-family: 'Jost', sans-serif;
+    font: 300;
+    font-size: 18px;
+    padding-left: 30px;
+    
+}
+
+               /* portfolio */
+
+
+ 
+.titre p{
+    font-family: 'Jost', sans-serif;
+    font: 300 ;
+    font-style: italic;
+    text-align: center;
+    
+
+}    
+
+.portfolio {
+    background-color: #d0d2d6;
+   
+    height: auto;
+}
+.portfolio .container img{
+    width: 285px;
+    height: 280px;
+    position: inherit;
+    margin-left: -15px;
+    border-radius: 5px 5px 0px 0px;
+
+}               
+.portfolio .row .col-md-3{
+    margin-left: 70px;
+    background-color: white;
+    border-radius: 5px;
+}               
+.portfolio .row{
+    padding-bottom: 40px;
+}
+
+
+.portfolio .container h3{
+    text-align: center;
+    text-transform: uppercase;
+
+}
+.portfolio .container h6{
+   text-align: center;
+    text-transform: capitalize;
+    font-style: italic;
+}
+
+                /* about us */
+
+.aboutus img{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 7px solid #f1f1f1;
+
+}
+.aboutus .container{
+   
+    margin-left: 350px;
+    padding-bottom: 100px;
+    height: auto;
+}
+
+.aboutus .row p{
+    color: #777;
+    font-family: 'Jost', sans-serif;
+    font: 300;
+    font-size: 14px;
+}
+
+
+
+#tire{
+    margin-left: 370px;
+   
+}
+.aboutus .bord{
+    content: "";
+    padding: 0px;
+    margin: 0px;
+    width: 4px;
+    height: 100px;
+    background-color: #777;
+    margin-left: 430px;
+
+}
+
+                   /* contact me */
+.contactme{
+    height: auto;
+    padding: 40px 0px;
+    border: 2px solid gray;
+}
+.form-control{
+    width: 50%;
+}
+
+.icon{
+    font-size: 50px;
+    float: right;
+    margin-right: 100px;
+    margin-top: -200px;
+}
+
